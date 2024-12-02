@@ -1,0 +1,14 @@
+.img-logo{
+  max-width: 95px;
+  max-height: auto;
+}
+
+.navbar{
+  border-bottom: 3px solid #4CAF50;
+}
+
+.item-menu:hover{
+  text-decoration: underline; 
+  text-decoration-color: #4CAF50; 
+  text-decoration-thickness: 2px; 
+}
