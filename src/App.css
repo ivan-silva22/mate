@@ -103,3 +103,11 @@ body{
   border: 0 !important;
   color: #ffff !important;
 }
+
+.sobre-nosotros{
+  font-size: 22px;
+}
+
+.img-sobre-nosotros{
+  width: 500px !important;
+}
