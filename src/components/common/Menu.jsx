@@ -13,7 +13,6 @@ const Menu = () => {
             <Nav className="ms-auto">
               <Nav.Link href="#home" className="item-menu">Sobre nosotros</Nav.Link>
               <Nav.Link href="#link" className="item-menu">Servicios</Nav.Link>
-              <Nav.Link href="#link" className="item-menu">Logros</Nav.Link>
               <Nav.Link href="#link" className="item-menu">Contáctanos</Nav.Link>
             </Nav>
           </Navbar.Collapse>
