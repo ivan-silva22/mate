@@ -111,3 +111,32 @@ body{
 .img-sobre-nosotros{
   width: 500px !important;
 }
+
+footer {
+  background-color: #ffff; /* Fondo oscuro para resaltar el contenido */
+  color: #fff; /* Texto blanco */
+}
+
+.img-logo-footer{
+  width: 150px;
+  height: auto;
+}
+
+.footer-texto{
+  color: #28a745;
+}
+
+.redes-sociales {
+  display: flex;
+  justify-content: center; 
+  gap: 15px; 
+}
+
+.redes-sociales a {
+  display: inline-block;
+}
+
+.icono-redes {
+  width: 40px; /* Ajusta el tamaño de las imágenes */
+  height: 40px;
+}
