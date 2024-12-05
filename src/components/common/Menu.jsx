@@ -1,5 +1,5 @@
 import { Nav, Container, Navbar, NavDropdown } from "react-bootstrap";
-import logo from "../../../public/Mate.png";
+import logo from "../../../public/MateTransparente.png";
 import { Link } from "react-router";
 
 

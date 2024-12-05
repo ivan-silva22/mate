@@ -1,5 +1,6 @@
 import { Container } from "react-bootstrap";
 import sistema from "../../../public/sistema.png";
+import { Link } from "react-router";
 
 const Estudiantes = () => {
   return (
@@ -56,6 +57,14 @@ const Estudiantes = () => {
             educación. Facilitamos la conexión entre estudiantes y sus objetivos
             académicos.
           </p>
+        </div>
+      </section>
+      <section className="d-flex justify-content-between mt-5">
+        <div>
+            <Link className="btn btn-info">Anterior</Link>
+        </div>
+        <div>
+        <Link className="btn btn-info">Siguiente</Link>
         </div>
       </section>
     </Container>
