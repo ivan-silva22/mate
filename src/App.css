@@ -115,11 +115,10 @@ body{
 footer {
   background-color: #ffff; 
   color: #fff; 
-  margin-top: 60px;
 }
 
 .img-logo-footer{
-  width: 150px;
+  width: 100px;
   height: auto;
 }
 
@@ -145,7 +144,6 @@ footer {
 .sistema-estudiante {
   padding: 2rem 1rem;
   max-width: 1200px;
-  margin-top: 130px;
 }
 
 .sistema-estudiante h2 {
@@ -184,4 +182,32 @@ footer {
 
 .sistema-estudiante > section > div {
   margin-bottom: 1.5rem;
+}
+
+.btn-whatsapp {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #25d366;
+  color: white;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  text-decoration: none;
+  z-index: 1000;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.btn-whatsapp:hover {
+  transform: scale(1.1);
+  background-color: #1da851;
+}
+
+.icono-whatsapp {
+  width: 30px;
+  height: 30px;
 }
