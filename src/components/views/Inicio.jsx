@@ -187,7 +187,7 @@ const Inicio = () => {
                 Un sistema intuitivo que agiliza la reserva y administración de turnos médicos.
                 </Card.Text>
                 <div className="text-center">
-                  <Button className="btn-info">Ver más</Button>
+                  <Link className="btn btn-info" to={"/autogestion-turnos"} >Ver más</Link>
                 </div>
               </Card.Body>
             </Card>
@@ -205,7 +205,7 @@ const Inicio = () => {
                 Un sitio web atractivo y funcional que destaca el menú y fomenta las reservas en línea.
                 </Card.Text>
                 <div className="text-center">
-                  <Button className="btn-info">Ver más</Button>
+                  <Link className="btn btn-info" to={"/restaurante"}>Ver más</Link>
                 </div>
               </Card.Body>
             </Card>
