@@ -5,10 +5,14 @@ import iconoMantenimiento from "../../../public/mantenimiento-web.png";
 import iconoSeo from "../../../public/seo.png";
 import iconoIdea from "../../../public/idea.png";
 import imgSobreNosotros from "../../../public/sobre-nosotros.webp";
+import estudiante from "../../../public/estudiante.png";
+import turnos from "../../../public/calendario.png";
+import utensillos from "../../../public/utensilios.png";
+
 
 const Inicio = () => {
   return (
-    <main className="mt-4">
+    <main>
       <section className="contenedor">
         <article className="texto-portada">
           <h1>
@@ -21,7 +25,7 @@ const Inicio = () => {
         </article>
       </section>
       <Container className="mt-5">
-        <article className="text-center">
+        <article className="text-center" id="servicios">
         <hr />
           <h2>Nuestros servicios</h2>
         </article>
@@ -120,7 +124,7 @@ const Inicio = () => {
           </Col>
         </Row>
         <section className="mt-5">
-          <article className="text-center">
+          <article className="text-center" id="sobre-nosotros">
           <hr />
             <h2>Sobre nosotros</h2>
           </article>
@@ -143,39 +147,69 @@ const Inicio = () => {
             </Col>
           </Row>
         </section>
-        <section className="mt-5" id="contacto">
-          <article className="text-center">
-            <hr />
-            <h2>Contáctanos</h2>
-          </article>
-          <article>
-            <Form>
-              <Form.Group
-                className="mb-3"
-                controlId="exampleForm.ControlNombre"
-              >
-                <Form.Label>Nombre:</Form.Label>
-                <Form.Control type="text" placeholder="Ingrese su nombre" />
-              </Form.Group>
-              <Form.Group
-                className="mb-3"
-                controlId="exampleForm.ControlEmail"
-              >
-                <Form.Label>Email:</Form.Label>
-                <Form.Control type="email" placeholder="Ingrese su Email" />
-              </Form.Group>
-              <Form.Group
-                className="mb-3"
-                controlId="exampleForm.ControlMensaje"
-              >
-                <Form.Label>Mensaje:</Form.Label>
-                <Form.Control as="textarea" rows={3} />
-              </Form.Group>
-              <div className="text-center">
-              <Button className="btn-info w-50 fs-5">Enviar</Button>
-              </div>
-            </Form>
-          </article>
+        <section className="mt-5" id="logros">
+        <article className="text-center" >
+        <hr />
+          <h2>Logros</h2>
+        </article>
+        <Row className="mt-5 justify-content-center">
+          <Col md={4} className="d-flex justify-content-center">
+            <Card className="card-shadow">
+              <Card.Img
+              className="icono-servicio"
+                variant="top"
+                src={estudiante}
+              />
+              <Card.Body>
+                <Card.Title>Sistema de Autogestión Estudiantil</Card.Title>
+                <Card.Text>
+                Automatizamos la administración académica para mejorar la experiencia tanto de estudiantes como de administradores.
+                </Card.Text>
+                <div className="text-center">
+                  <Button className="btn-info">Ver más</Button>
+                </div>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col md={4} className="d-flex justify-content-center">
+            <Card className="card-shadow">
+              <Card.Img
+                className="icono-servicio"
+                variant="top"
+                src={turnos}
+              />
+              <Card.Body>
+                <Card.Title>
+                Gestión de Turnos para Clínicas
+                </Card.Title>
+                <Card.Text>
+                Un sistema intuitivo que agiliza la reserva y administración de turnos médicos.
+                </Card.Text>
+                <div className="text-center">
+                  <Button className="btn-info">Ver más</Button>
+                </div>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col md={4} className="d-flex justify-content-center">
+            <Card className="card-shadow">
+              <Card.Img
+                className="icono-servicio"
+                variant="top"
+                src={utensillos}
+              />
+              <Card.Body>
+                <Card.Title>Web Profesional para Restaurantes</Card.Title>
+                <Card.Text>
+                Un sitio web atractivo y funcional que destaca el menú y fomenta las reservas en línea.
+                </Card.Text>
+                <div className="text-center">
+                  <Button className="btn-info">Ver más</Button>
+                </div>
+              </Card.Body>
+            </Card>
+          </Col>
+        </Row>
         </section>
       </Container>
     </main>

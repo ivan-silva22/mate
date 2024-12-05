@@ -5,7 +5,7 @@ body{
 }
 
 .img-logo{
-  max-width: 95px;
+  max-width: 60px;
   max-height: auto;
 }
 
@@ -75,7 +75,7 @@ body{
 }
 
 .icono-servicio{
-  width: 90px !important;
+  width: 130px !important;
   margin: 10px auto;
 }
 
@@ -113,8 +113,9 @@ body{
 }
 
 footer {
-  background-color: #ffff; /* Fondo oscuro para resaltar el contenido */
-  color: #fff; /* Texto blanco */
+  background-color: #ffff; 
+  color: #fff; 
+  margin-top: 80px;
 }
 
 .img-logo-footer{

@@ -5,7 +5,7 @@ import linkedin from "../../../public/linkedin.png";
 
 const Footer = () => {
   return (
-    <footer className="shadow-lg p-3 mb-5 rounded">
+    <footer className="shadow-lg p-3 rounded">
       <Row className="justify-content-center text-center ">
         <Col md={6}>
           <img className="img-logo-footer" src={logo} alt="logo de Mate" />
