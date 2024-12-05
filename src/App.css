@@ -138,6 +138,50 @@ footer {
 }
 
 .icono-redes {
-  width: 40px; /* Ajusta el tamaño de las imágenes */
+  width: 40px; 
   height: 40px;
+}
+
+.sistema-estudiante {
+  padding: 2rem 1rem;
+  max-width: 1200px;
+  margin-top: 130px;
+}
+
+.sistema-estudiante h2 {
+  font-size: 28px;
+  line-height: 1.4;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.sistema-estudiante p {
+  font-size: 18px;
+  line-height: 1.6;
+  text-align: justify;
+  margin-bottom: 1.5rem;
+}
+
+.sistema-estudiante ul {
+  font-size: 18px;
+  line-height: 1.6;
+  padding-left: 1.5rem;
+}
+
+.sistema-estudiante ul li {
+  margin-bottom: 0.8rem;
+}
+
+.sistema-estudiante img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.sistema-estudiante h4 {
+  font-size: 22px;
+  margin-bottom: 1rem;
+}
+
+.sistema-estudiante > section > div {
+  margin-bottom: 1.5rem;
 }

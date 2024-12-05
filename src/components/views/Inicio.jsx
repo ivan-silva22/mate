@@ -8,6 +8,7 @@ import imgSobreNosotros from "../../../public/sobre-nosotros.webp";
 import estudiante from "../../../public/estudiante.png";
 import turnos from "../../../public/calendario.png";
 import utensillos from "../../../public/utensilios.png";
+import { Link } from "react-router";
 
 
 const Inicio = () => {
@@ -166,7 +167,7 @@ const Inicio = () => {
                 Automatizamos la administración académica para mejorar la experiencia tanto de estudiantes como de administradores.
                 </Card.Text>
                 <div className="text-center">
-                  <Button className="btn-info">Ver más</Button>
+                  <Link className=" btn btn-info" to={"/autogestion-estudiante"}  >Ver más</Link> 
                 </div>
               </Card.Body>
             </Card>
