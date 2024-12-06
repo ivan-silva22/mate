@@ -42,7 +42,7 @@ const Turnos = () => {
             </Link>
           </div>
           <div className="text-center mt-4">
-          <h1 className="subtitulo">Optimiza la gestión de turnos en tu Clínica</h1>
+          <h1>Optimiza la gestión de turnos en tu Clínica</h1>
           </div>
           <section>
             <div>
@@ -61,7 +61,7 @@ const Turnos = () => {
               />
             </div>
             <div>
-              <h3 className="subtitulo">Beneficios principales</h3>
+              <h3>Beneficios principales</h3>
               <ul>
                 <li>
                   <strong>Eficiencia:</strong> Menor tiempo perdido en la
@@ -78,7 +78,7 @@ const Turnos = () => {
               </ul>
             </div>
             <div>
-              <h3 className="subtitulo">Funcionalidades:</h3>
+              <h3>Funcionalidades:</h3>
               <ul>
                 <li>
                   <strong>Reservas en línea:</strong> Los pacientes pueden programar sus citas

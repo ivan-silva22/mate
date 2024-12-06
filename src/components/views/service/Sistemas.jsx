@@ -43,7 +43,7 @@ const Sistemas = () => {
             </Link>
           </div>
           <div className="text-center mt-4">
-            <h1 className="subtitulo">
+            <h1>
               Soluciones digitales hechas a medida para tu negocio
             </h1>
           </div>

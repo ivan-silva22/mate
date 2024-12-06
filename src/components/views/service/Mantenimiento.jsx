@@ -43,7 +43,7 @@ const Mantenimiento = () => {
             </Link>
           </div>
           <div className="mt-4 text-center">
-            <h1 className="subtitulo">Mantenimiento Web: Tu Sitio Siempre en Perfecto Estado</h1>
+            <h1>Mantenimiento Web: Tu Sitio Siempre en Perfecto Estado</h1>
           </div>
           <section>
             <div>

@@ -43,7 +43,7 @@ const Optimizacion = () => {
             </Link>
           </div>
           <div className="mt-4 text-center">
-            <h1 className="subtitulo">Optimización y SEO: Impulsa Tu Presencia Digital</h1>
+            <h1>Optimización y SEO: Impulsa Tu Presencia Digital</h1>
           </div>
           <section>
             <div>

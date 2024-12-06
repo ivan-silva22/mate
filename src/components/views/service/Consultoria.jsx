@@ -42,7 +42,7 @@ const Consultoria = () => {
             </Link>
           </div>
           <div className="mt-4 text-center">
-            <h1 className="subtitulo">
+            <h1>
               Asesoramiento y Consultoría Digital: Impulsa tu Negocio con
               Estrategias Expertas
             </h1>

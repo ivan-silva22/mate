@@ -42,7 +42,7 @@ const Restaurante = () => {
             </Link>
           </div>
           <div className="text-center mt-4">
-          <h1 className="subtitulo">Potencia la presencia digital de tu restaurante</h1>
+          <h1>Potencia la presencia digital de tu restaurante</h1>
           </div>
           <section>
             <div>
@@ -61,7 +61,7 @@ const Restaurante = () => {
               />
             </div>
             <div>
-              <h3 className="subtitulo">Beneficios principales</h3>
+              <h3>Beneficios principales</h3>
               <ul>
                 <li>
                   <strong>Mayor alcance:</strong> Llega a más clientes con una
@@ -78,7 +78,7 @@ const Restaurante = () => {
               </ul>
             </div>
             <div>
-              <h3 className="subtitulo">Funcionalidades:</h3>
+              <h3>Funcionalidades:</h3>
               <ul>
                 <li>
                   <strong>Menú digital:</strong> Presenta tus platillos con descripciones,

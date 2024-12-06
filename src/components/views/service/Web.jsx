@@ -43,7 +43,7 @@ const Web = () => {
             </Link>
           </div>
           <div className="mt-4 text-center">
-          <h1 className=" subtitulo">
+          <h1>
             Páginas web que conectan a tus clientes con tus servicios
           </h1>
           </div>
@@ -90,7 +90,7 @@ const Web = () => {
                   <img src={trabajo} alt="" />
                 </Col>
                 <Col md={6} className="d-flex justify-content-center">
-                  <ul>
+                  <ul className="card-cell">
                     <li>
                       <strong>Reunión inicial:</strong> Analizamos tus
                       necesidades y objetivos.

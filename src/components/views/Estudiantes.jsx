@@ -43,7 +43,7 @@ const Estudiantes = () => {
             </Link>
           </div>
           <div className="mt-4 text-center">
-          <h1 className="subtitulo">Una solución integral para la gestión educativa</h1>
+          <h1>Una solución integral para la gestión educativa</h1>
           </div>
           <section>
             <div>
@@ -62,7 +62,7 @@ const Estudiantes = () => {
               />
             </div>
             <div>
-              <h4 className="subtitulo">Beneficios principales</h4>
+              <h4>Beneficios principales</h4>
               <ul>
                 <li>
                   <strong>Eficiencia:</strong> Reduce el tiempo dedicado a
@@ -80,7 +80,7 @@ const Estudiantes = () => {
               </ul>
             </div>
             <div>
-              <h4 className="subtitulo">Funcionalidades:</h4>
+              <h4>Funcionalidades:</h4>
               <ul>
                 <li>
                   Inscripción en materias y exámenes de manera rápida y
