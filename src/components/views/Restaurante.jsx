@@ -34,14 +34,16 @@ const Restaurante = () => {
                 width="16"
                 height="16"
                 fill="currentColor"
-                class="bi bi-arrow-left-circle-fill"
+                className="bi bi-arrow-left-circle-fill"
                 viewBox="0 0 16 16"
               >
                 <path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0m3.5 7.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5z" />
               </svg>
             </Link>
           </div>
-          <h2>Potencia la presencia digital de tu restaurante</h2>
+          <div className="text-center mt-4">
+          <h1 className="subtitulo">Potencia la presencia digital de tu restaurante</h1>
+          </div>
           <section>
             <div>
               <p>
@@ -59,7 +61,7 @@ const Restaurante = () => {
               />
             </div>
             <div>
-              <h4>Beneficios principales</h4>
+              <h3 className="subtitulo">Beneficios principales</h3>
               <ul>
                 <li>
                   <strong>Mayor alcance:</strong> Llega a más clientes con una
@@ -76,21 +78,21 @@ const Restaurante = () => {
               </ul>
             </div>
             <div>
-              <h4>Funcionalidades:</h4>
+              <h3 className="subtitulo">Funcionalidades:</h3>
               <ul>
                 <li>
-                  Menú digital: Presenta tus platillos con descripciones,
+                  <strong>Menú digital:</strong> Presenta tus platillos con descripciones,
                   precios y fotos irresistibles.
                 </li>
                 <li>
-                  Sistema de reservas en línea: Facilita la gestión de mesas y
+                  <strong>Sistema de reservas en línea:</strong> Facilita la gestión de mesas y
                   horarios.
                 </li>
                 <li>
-                  Promociones destacadas: Muestra ofertas y eventos especiales.
+                  <strong>Promociones destacadas:</strong> Muestra ofertas y eventos especiales.
                 </li>
                 <li>
-                  Conexión con redes sociales: Integra tus perfiles de Facebook,
+                  <strong>Conexión con redes sociales:</strong> Integra tus perfiles de Facebook,
                   Instagram y más.
                 </li>
               </ul>

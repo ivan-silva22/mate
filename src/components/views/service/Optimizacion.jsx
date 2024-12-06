@@ -42,8 +42,8 @@ const Optimizacion = () => {
               </svg>
             </Link>
           </div>
-          <div className="my-5">
-            <h1>Optimización y SEO: Impulsa Tu Presencia Digital</h1>
+          <div className="mt-4 text-center">
+            <h1 className="subtitulo">Optimización y SEO: Impulsa Tu Presencia Digital</h1>
           </div>
           <section>
             <div>
@@ -56,15 +56,11 @@ const Optimizacion = () => {
               </p>
             </div>
             <div className="mt-5">
+              <hr />
               <h2>¿Qué es la Optimización y el SEO?</h2>
-              <h4>
-                La optimización y el SEO son el conjunto de estrategias y
-                técnicas que mejoran la visibilidad de tu sitio web en
-                buscadores como Google.
-              </h4>
               <Row className="mt-4 justify-content-center">
                 <Col md={6} sm={12} className="d-flex justify-content-center">
-                  <img src={seo} alt="" />
+                  <img src={seo} className="w-100" alt="" />
                 </Col>
                 <Col md={6} sm={12} className="d-flex justify-content-center">
                   <ul className="card-cell">
@@ -83,6 +79,7 @@ const Optimizacion = () => {
               </Row>
             </div>
             <div className="mt-5">
+              <hr />
               <h2>Nuestros Servicios de Optimización y SEO</h2>
               <Row className="mt-4 justify-content-center">
                 <Col md={6} sm={12} className="d-flex justify-content-center">

@@ -42,9 +42,11 @@ const Sistemas = () => {
               </svg>
             </Link>
           </div>
-          <h1 className="my-4">
-            Soluciones digitales hechas a medida para tu negocio
-          </h1>
+          <div className="text-center mt-4">
+            <h1 className="subtitulo">
+              Soluciones digitales hechas a medida para tu negocio
+            </h1>
+          </div>
           <section>
             <div>
               <p>
@@ -56,6 +58,7 @@ const Sistemas = () => {
             </div>
 
             <div>
+              <hr />
               <h2>¿Por Qué Elegir Soluciones Personalizadas?</h2>
               <Row className="mt-5 justify-content-center">
                 <Col md={6} className="d-flex justify-content-center">
@@ -85,6 +88,7 @@ const Sistemas = () => {
               </Row>
             </div>
             <div>
+              <hr />
               <h2>Tipos de Sistemas y Aplicaciones Web</h2>
               <Row className="mt-5 justify-content-center">
                 <Col md={6} className="d-flex justify-content-center">

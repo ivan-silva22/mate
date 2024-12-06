@@ -42,8 +42,8 @@ const Mantenimiento = () => {
               </svg>
             </Link>
           </div>
-          <div className="my-5">
-            <h1>Mantenimiento Web: Tu Sitio Siempre en Perfecto Estado</h1>
+          <div className="mt-4 text-center">
+            <h1 className="subtitulo">Mantenimiento Web: Tu Sitio Siempre en Perfecto Estado</h1>
           </div>
           <section>
             <div>
@@ -55,6 +55,7 @@ const Mantenimiento = () => {
               </p>
             </div>
             <div className="mt-5">
+              <hr />
               <h2>Nuestros Servicios de Mantenimiento Web</h2>
               <Row className="mt-4 justify-content-center">
                 <Col md={6} sm={12} className="d-flex justify-content-center">
@@ -87,6 +88,7 @@ const Mantenimiento = () => {
               </Row>
             </div>
             <div className="mt-4">
+              <hr />
               <h2>Cómo Trabajamos</h2>
               <Row className=" mt-4 justify-content-center">
                 <Col md={6} sm={12} className="d-flex justify-content-center">

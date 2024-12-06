@@ -145,7 +145,7 @@ const Inicio = () => {
             <hr />
             <h2>Sobre nosotros</h2>
           </article>
-          <Row className="align-items-center justify-content-center">
+          <Row className="align-items-center justify-content-center mt-5">
             <Col md={6} className="d-flex justify-content-center">
               <p className="sobre-nosotros">
                 En Mate, nuestro objetivo es ofrecer soluciones digitales de

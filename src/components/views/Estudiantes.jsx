@@ -35,14 +35,16 @@ const Estudiantes = () => {
                 width="16"
                 height="16"
                 fill="currentColor"
-                class="bi bi-arrow-left-circle-fill"
+                className="bi bi-arrow-left-circle-fill"
                 viewBox="0 0 16 16"
               >
                 <path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0m3.5 7.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5z" />
               </svg>
             </Link>
           </div>
-          <h2>Una solución integral para la gestión educativa</h2>
+          <div className="mt-4 text-center">
+          <h1 className="subtitulo">Una solución integral para la gestión educativa</h1>
+          </div>
           <section>
             <div>
               <p>
@@ -60,7 +62,7 @@ const Estudiantes = () => {
               />
             </div>
             <div>
-              <h4>Beneficios principales</h4>
+              <h4 className="subtitulo">Beneficios principales</h4>
               <ul>
                 <li>
                   <strong>Eficiencia:</strong> Reduce el tiempo dedicado a
@@ -78,7 +80,7 @@ const Estudiantes = () => {
               </ul>
             </div>
             <div>
-              <h4>Funcionalidades:</h4>
+              <h4 className="subtitulo">Funcionalidades:</h4>
               <ul>
                 <li>
                   Inscripción en materias y exámenes de manera rápida y

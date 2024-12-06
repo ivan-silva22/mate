@@ -42,9 +42,11 @@ const Web = () => {
               </svg>
             </Link>
           </div>
-          <h1 className="my-4">
+          <div className="mt-4 text-center">
+          <h1 className=" subtitulo">
             Páginas web que conectan a tus clientes con tus servicios
           </h1>
+          </div>
           <section>
             <div>
               <p>
@@ -56,6 +58,7 @@ const Web = () => {
             </div>
 
             <div>
+              <hr />
               <h2>Beneficios de una Página Web Profesional</h2>
               <Row className="mt-5 justify-content-center">
                 <Col md={6} className="d-flex justify-content-center">
@@ -80,6 +83,7 @@ const Web = () => {
               </Row>
             </div>
             <div className="mt-5">
+              <hr />
               <h2>Proceso de Desarrollo</h2>
               <Row className="mt-5 justify-content-center">
                 <Col md={6} className="d-flex justify-content-center">

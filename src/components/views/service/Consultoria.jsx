@@ -41,8 +41,8 @@ const Consultoria = () => {
               </svg>
             </Link>
           </div>
-          <div className="my-5">
-            <h1>
+          <div className="mt-4 text-center">
+            <h1 className="subtitulo">
               Asesoramiento y Consultoría Digital: Impulsa tu Negocio con
               Estrategias Expertas
             </h1>
@@ -58,6 +58,7 @@ const Consultoria = () => {
               </p>
             </div>
             <div className="mt-5">
+              <hr />
               <h2>¿Por qué elegir nuestra consultoría?</h2>
               <Row className="mt-4 justify-content-center">
                 <Col md={6} sm={12} className="d-flex justify-content-center">
@@ -82,6 +83,7 @@ const Consultoria = () => {
               </Row>
             </div>
             <div className="mt-5">
+              <hr />
               <h2>Servicios que ofrecemos</h2>
               <Row className="mt-4 justify-content-center">
                 <Col md={6} sm={12} className="d-flex justify-content-center">
