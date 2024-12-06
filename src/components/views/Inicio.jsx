@@ -1,4 +1,4 @@
-import { Col, Container, Row, Button, Card, Form } from "react-bootstrap";
+import { Col, Container, Row, Card } from "react-bootstrap";
 import iconoWeb from "../../../public/desarrollo-web.png";
 import iconoSistema from "../../../public/desarrollo-sistemas.png";
 import iconoMantenimiento from "../../../public/mantenimiento-web.png";
@@ -29,114 +29,117 @@ const Inicio = () => {
         </article>
       </section>
       <Container className="mt-5">
-        <article className="text-center" id="servicios">
-          <hr />
-          <h2>Nuestros servicios</h2>
-        </article>
-        <Row className="mt-5 justify-content-center">
-          <Col md={4} className="d-flex justify-content-center">
-            <Card className="card-shadow">
-              <Card.Img
-                className="icono-servicio"
-                variant="top"
-                src={iconoWeb}
-              />
-              <Card.Body>
-                <Card.Title>Desarrollo Web</Card.Title>
-                <Card.Text>
-                  Transformamos tu idea en una presencia digital efectiva.
-                </Card.Text>
-                <div className="text-center">
-                  <Link className="btn btn-info" to={"/desarrollo-web"}>
-                    Ver más
-                  </Link>
-                </div>
-              </Card.Body>
-            </Card>
-          </Col>
-          <Col md={4} className="d-flex justify-content-center">
-            <Card className="card-shadow">
-              <Card.Img
-                className="icono-servicio"
-                variant="top"
-                src={iconoSistema}
-              />
-              <Card.Body>
-                <Card.Title>
-                  Sistemas y Aplicaciones Web Personalizadas
-                </Card.Title>
-                <Card.Text>
-                  Creamos herramientas digitales que impulsan tu productividad.
-                </Card.Text>
-                <div className="text-center">
-                  <Link className="btn btn-info" to={"/desarrollo-sistema"}>
-                    Ver más
-                  </Link>
-                </div>
-              </Card.Body>
-            </Card>
-          </Col>
-          <Col md={4} className="d-flex justify-content-center">
-            <Card className="card-shadow">
-              <Card.Img
-                className="icono-servicio"
-                variant="top"
-                src={iconoMantenimiento}
-              />
-              <Card.Body>
-                <Card.Title>Mantenimiento</Card.Title>
-                <Card.Text>
-                  Cuida tu página web, nosotros nos encargamos del resto.
-                </Card.Text>
-                <div className="text-center">
-                  <Link className="btn btn-info" to={"/mantenimiento"}>
-                    Ver más
-                  </Link>
-                </div>
-              </Card.Body>
-            </Card>
-          </Col>
-          <Col md={4} className="d-flex justify-content-center mt-5">
-            <Card className="card-shadow">
-              <Card.Img
-                className="icono-servicio"
-                variant="top"
-                src={iconoSeo}
-              />
-              <Card.Body>
-                <Card.Title>Optimización y SEO</Card.Title>
-                <Card.Text>
-                  Haz que tu página web sea la primera opción en Google.
-                </Card.Text>
-                <div className="text-center">
-                  <Link className="btn btn-info" to={"/seo"}>
-                    Ver más
-                  </Link>
-                </div>
-              </Card.Body>
-            </Card>
-          </Col>
-          <Col md={4} className="d-flex justify-content-center mt-5">
-            <Card className="card-shadow">
-              <Card.Img
-                className="icono-servicio"
-                variant="top"
-                src={iconoIdea}
-              />
-              <Card.Body>
-                <Card.Title> Asesoramiento y Consultoría Digital</Card.Title>
-                <Card.Text>
-                  Te ayudamos a construir el futuro digital de tu negocio.
-                </Card.Text>
-                <div className="text-center">
-                  <Link className="btn btn-info" to={"/consultoria"}>
-                    Ver más
-                  </Link>
-                </div>
-              </Card.Body>
-            </Card>
-          </Col>
-        </Row>
+        <section className="animacion-scroll">
+          <article className="text-center deslizar" id="servicios">
+            <hr />
+            <h2>Nuestros servicios</h2>
+          </article>
+          <Row className="mt-5 justify-content-center deslizar">
+            <Col md={4} sm={12} className="d-flex justify-content-center">
+              <Card className="card-shadow">
+                <Card.Img
+                  className="icono-servicio"
+                  variant="top"
+                  src={iconoWeb}
+                />
+                <Card.Body>
+                  <Card.Title>Desarrollo Web</Card.Title>
+                  <Card.Text>
+                    Transformamos tu idea en una presencia digital efectiva.
+                  </Card.Text>
+                  <div className="text-center">
+                    <Link className="btn btn-info" to={"/desarrollo-web"}>
+                      Ver más
+                    </Link>
+                  </div>
+                </Card.Body>
+              </Card>
+            </Col>
+            <Col md={4} sm={12} className="d-flex justify-content-center">
+              <Card className="card-shadow card-cell">
+                <Card.Img
+                  className="icono-servicio"
+                  variant="top"
+                  src={iconoSistema}
+                />
+                <Card.Body>
+                  <Card.Title>
+                    Sistemas y Aplicaciones Web Personalizadas
+                  </Card.Title>
+                  <Card.Text>
+                    Creamos herramientas digitales que impulsan tu
+                    productividad.
+                  </Card.Text>
+                  <div className="text-center">
+                    <Link className="btn btn-info" to={"/desarrollo-sistema"}>
+                      Ver más
+                    </Link>
+                  </div>
+                </Card.Body>
+              </Card>
+            </Col>
+            <Col md={4} sm={12} className="d-flex justify-content-center">
+              <Card className="card-shadow card-cell">
+                <Card.Img
+                  className="icono-servicio"
+                  variant="top"
+                  src={iconoMantenimiento}
+                />
+                <Card.Body>
+                  <Card.Title>Mantenimiento</Card.Title>
+                  <Card.Text>
+                    Cuida tu página web, nosotros nos encargamos del resto.
+                  </Card.Text>
+                  <div className="text-center">
+                    <Link className="btn btn-info" to={"/mantenimiento"}>
+                      Ver más
+                    </Link>
+                  </div>
+                </Card.Body>
+              </Card>
+            </Col>
+            <Col md={4} sm={12} className="d-flex justify-content-center">
+              <Card className="card-shadow mt-5 card-cell">
+                <Card.Img
+                  className="icono-servicio"
+                  variant="top"
+                  src={iconoSeo}
+                />
+                <Card.Body>
+                  <Card.Title>Optimización y SEO</Card.Title>
+                  <Card.Text>
+                    Haz que tu página web sea la primera opción en Google.
+                  </Card.Text>
+                  <div className="text-center">
+                    <Link className="btn btn-info" to={"/seo"}>
+                      Ver más
+                    </Link>
+                  </div>
+                </Card.Body>
+              </Card>
+            </Col>
+            <Col md={4} sm={12} className="d-flex justify-content-center">
+              <Card className="card-shadow mt-5 card-cell">
+                <Card.Img
+                  className="icono-servicio"
+                  variant="top"
+                  src={iconoIdea}
+                />
+                <Card.Body>
+                  <Card.Title> Asesoramiento y Consultoría Digital</Card.Title>
+                  <Card.Text>
+                    Te ayudamos a construir el futuro digital de tu negocio.
+                  </Card.Text>
+                  <div className="text-center">
+                    <Link className="btn btn-info" to={"/consultoria"}>
+                      Ver más
+                    </Link>
+                  </div>
+                </Card.Body>
+              </Card>
+            </Col>
+          </Row>
+        </section>
         <section className="mt-5">
           <article className="text-center" id="sobre-nosotros">
             <hr />
@@ -154,7 +157,7 @@ const Inicio = () => {
             </Col>
             <Col md={6} className="d-flex justify-content-center">
               <Card.Img
-                className="img-sobre-nosotros"
+                className="img-sobre-nosotros w-100"
                 variant="top"
                 src={imgSobreNosotros}
               />
@@ -192,7 +195,7 @@ const Inicio = () => {
               </Card>
             </Col>
             <Col md={4} className="d-flex justify-content-center">
-              <Card className="card-shadow">
+              <Card className="card-shadow card-cell">
                 <Card.Img
                   className="icono-servicio"
                   variant="top"
@@ -213,7 +216,7 @@ const Inicio = () => {
               </Card>
             </Col>
             <Col md={4} className="d-flex justify-content-center">
-              <Card className="card-shadow">
+              <Card className="card-shadow card-cell">
                 <Card.Img
                   className="icono-servicio"
                   variant="top"
@@ -237,7 +240,7 @@ const Inicio = () => {
         </section>
         <a
           href="https://wa.me/543865692626?text=Hola,%20estoy%20interesado%20en%20tus%20servicios"
-          class="btn-whatsapp"
+          className="btn-whatsapp"
           target="_blank"
         >
           <svg
