@@ -11,20 +11,9 @@ const Footer = () => {
           <img className="img-logo-footer" src={logo} alt="logo de Mate" />
         </Col>
         <Col md={6} className="mt-2">
-          <div className="redes-sociales mt-4">
-            <a className="nav-link" href="">
-              <img
-                className="icono-redes"
-                src={facebook}
-                alt="logo de facebook"
-              />
-            </a>
-            <a className="nav-link" href="">
-              <img className="icono-redes" src={linkedin} alt="logo linkedin" />
-            </a>
-          </div>
+          <h4 className="footer-texto">Contacto</h4>
           <div className="mt-4">
-            <p className="footer-texto">contactomate@gmail.com</p>
+            <p className="footer-texto">contacto.matesoftware@gmail.com</p>
           </div>
         </Col>
       </Row>
